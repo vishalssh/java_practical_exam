@@ -1,0 +1,20 @@
+// Remove the Number from String
+
+public class removeNum {
+    public static void main(String[] args) {
+        String name = "For3tu4ne C1l6oud";
+        char[] chars = name.toCharArray();
+        String result = "";
+
+        for (int i = 0; i < chars.length; i++) {
+            if ((chars[i] > 0 || chars[i] < 9)) {
+                
+            } else {
+                result = result + chars[i];
+            }
+        }
+
+        System.out.println("string: " + name);
+        System.out.println("After remove: " + result);
+    }
+}
